@@ -1,0 +1,404 @@
+{"level":30,"time":"2021-12-08T00:20:22.238Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Listening on 57477"}
+{"level":30,"time":"2021-12-08T00:20:22.431Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method health"}
+{"level":30,"time":"2021-12-08T00:20:22.433Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method health"}
+{"level":30,"time":"2021-12-08T00:20:22.437Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:22.437Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:22.439Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:22.439Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:22.442Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2021-12-08T00:20:23.086Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newBrowser"}
+{"level":30,"time":"2021-12-08T00:20:23.089Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newPage"}
+{"level":30,"time":"2021-12-08T00:20:23.090Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-12-08T00:20:23.097Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:23.220Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Video path: undefined"}
+{"level":30,"time":"2021-12-08T00:20:23.220Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
+{"level":30,"time":"2021-12-08T00:20:33.224Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26654:49
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:33.228Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:20:33.228Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:33.233Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:20:33.233Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:33.234Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:20:33.235Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:33.237Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:33.237Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:33.238Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:33.239Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:33.239Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:33.239Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:33.240Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:33.240Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:20:33.240Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:20:33.241Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:20:33.241Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:20:33.242Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:33.242Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:33.249Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:33.249Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:33.250Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:33.250Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeContext"}
+{"level":30,"time":"2021-12-08T00:20:33.269Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeContext"}
+{"level":30,"time":"2021-12-08T00:20:33.273Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:33.273Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:33.275Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2021-12-08T00:20:33.790Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newBrowser"}
+{"level":30,"time":"2021-12-08T00:20:33.792Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newPage"}
+{"level":30,"time":"2021-12-08T00:20:33.792Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-12-08T00:20:33.797Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:33.918Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Video path: undefined"}
+{"level":30,"time":"2021-12-08T00:20:33.918Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
+{"level":30,"time":"2021-12-08T00:20:43.927Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26654:49
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:43.929Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:20:45.260Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target closed
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22858:47
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24090:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:24084:71
+    at __webpack_modules__../node/playwright-wrapper/grpc-service.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24080:12)
+    at PlaywrightServer.takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24161:55)
+    at handleUnary (C:\Python310\lib\site-packages\Browser\wrapper\index.js:18688:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:45.264Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:20:45.264Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22858:47
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24090:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:24084:71
+    at __webpack_modules__../node/playwright-wrapper/grpc-service.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24080:12)
+    at PlaywrightServer.takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24161:55)
+    at handleUnary (C:\Python310\lib\site-packages\Browser\wrapper\index.js:18688:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:45.265Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:20:45.265Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22858:47
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24090:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:24084:71
+    at __webpack_modules__../node/playwright-wrapper/grpc-service.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24080:12)
+    at PlaywrightServer.takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24161:55)
+    at handleUnary (C:\Python310\lib\site-packages\Browser\wrapper\index.js:18688:13) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:45.268Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:45.269Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:45.270Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:45.270Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:45.270Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changing current active page"}
+{"level":30,"time":"2021-12-08T00:20:45.270Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closed
+    at BrowserState.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26513:53)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26035:71
+    at __webpack_modules__../node/playwright-wrapper/playwright-state.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26031:12)
+    at BrowserState.__webpack_modules__../node/playwright-wrapper/playwright-state.ts.BrowserState.activatePage (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26508:16)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26760:55
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26035:71
+    at __webpack_modules__../node/playwright-wrapper/playwright-state.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26031:12)
+    at _switchPage (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26748:12)
+    at Object.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26876:42)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:45.271Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:45.273Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:45.274Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:45.275Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:45.275Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:45.275Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changing current active page"}
+{"level":30,"time":"2021-12-08T00:20:45.275Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closed
+    at BrowserState.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26513:53)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26035:71
+    at __webpack_modules__../node/playwright-wrapper/playwright-state.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26031:12)
+    at BrowserState.__webpack_modules__../node/playwright-wrapper/playwright-state.ts.BrowserState.activatePage (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26508:16)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26760:55
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26035:71
+    at __webpack_modules__../node/playwright-wrapper/playwright-state.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26031:12)
+    at _switchPage (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26748:12)
+    at Object.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26876:42)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:45.275Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:45.280Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:45.281Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:45.282Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:45.282Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:45.283Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2021-12-08T00:20:45.796Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newBrowser"}
+{"level":30,"time":"2021-12-08T00:20:45.799Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newPage"}
+{"level":30,"time":"2021-12-08T00:20:45.799Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-12-08T00:20:45.804Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:45.919Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Video path: undefined"}
+{"level":30,"time":"2021-12-08T00:20:45.919Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
+{"level":30,"time":"2021-12-08T00:20:55.929Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26654:49
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:55.930Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:20:55.931Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:55.934Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:20:55.934Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:55.935Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:20:55.935Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+=============================================================
+{"level":30,"time":"2021-12-08T00:20:55.938Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:55.938Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:55.939Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:55.939Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:55.940Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:55.940Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:55.941Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:55.942Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:20:55.942Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:20:55.942Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:20:55.943Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:20:55.943Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:55.943Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:55.944Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:55.944Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:55.944Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:20:55.945Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeContext"}
+{"level":30,"time":"2021-12-08T00:20:55.964Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeContext"}
+{"level":30,"time":"2021-12-08T00:20:55.967Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:55.968Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:20:55.969Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2021-12-08T00:20:56.545Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newBrowser"}
+{"level":30,"time":"2021-12-08T00:20:56.547Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newPage"}
+{"level":30,"time":"2021-12-08T00:20:56.547Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-12-08T00:20:56.560Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:20:56.785Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Video path: undefined"}
+{"level":30,"time":"2021-12-08T00:20:56.785Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
+{"level":30,"time":"2021-12-08T00:21:04.063Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26654:49
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
+    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2021-12-08T00:21:04.065Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:21:04.065Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+=============================================================
+{"level":30,"time":"2021-12-08T00:21:04.069Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:21:04.069Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+=============================================================
+{"level":30,"time":"2021-12-08T00:21:04.071Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T00:21:04.071Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
+    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
+    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
+    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
+    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
+    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
+=============================================================
+{"level":30,"time":"2021-12-08T00:21:04.074Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:21:04.075Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:21:04.076Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:21:04.076Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:21:04.076Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:21:04.077Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:21:04.077Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:21:04.078Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:21:04.078Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:21:04.079Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:21:04.079Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T00:21:04.079Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:21:04.079Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:21:04.080Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:21:04.080Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T00:21:04.080Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T00:21:04.080Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeContext"}
+{"level":30,"time":"2021-12-08T00:21:04.084Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeContext"}
+{"level":30,"time":"2021-12-08T00:21:04.086Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:21:04.086Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T00:21:04.114Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2021-12-08T00:21:04.351Z","pid":2184,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeAllBrowsers"}

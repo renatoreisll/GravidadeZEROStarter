@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211207 20:20:21.668" rpa="false" schemaversion="2">
+<suite id="s1" name="Tests" source="C:\GravidadeZERO\yodapp\tests">
+<suite id="s1-s1" name="Cadastro" source="C:\GravidadeZERO\yodapp\tests\cadastro.robot">
+<test id="s1-s1-t1" name="Deve cadastrar um novo personagem">
+<kw name="Start Session" library="base" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<arg>slowMo=00:00:00</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20211207 20:20:22.441" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\GravidadeZERO\\yodapp\\logs\\browser\\traces\\1865855c-69fc-4443-8353-aa44f40b657f"}</msg>
+<msg timestamp="20211207 20:20:23.088" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\GravidadeZERO\\yodapp\\logs\\browser\\traces\\1865855c-69fc-4443-8353-aa44f40b657f"}</msg>
+<status status="PASS" starttime="20211207 20:20:22.441" endtime="20211207 20:20:23.088"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>https://yodapp-testing.vercel.app</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<msg timestamp="20211207 20:20:33.229" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:20:33.231" level="FAIL">TimeoutError: page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================</msg>
+<status status="FAIL" starttime="20211207 20:20:23.088" endtime="20211207 20:20:33.231"/>
+</kw>
+<status status="FAIL" starttime="20211207 20:20:22.440" endtime="20211207 20:20:33.231"/>
+</kw>
+<kw name="End Session" library="base" type="TEARDOWN">
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20211207 20:20:33.235" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:20:33.236" level="FAIL">Error: Tried to take screenshot, but no page was open.</msg>
+<status status="FAIL" starttime="20211207 20:20:33.232" endtime="20211207 20:20:33.236"/>
+</kw>
+<status status="FAIL" starttime="20211207 20:20:33.232" endtime="20211207 20:20:33.236">Error: Tried to take screenshot, but no page was open.</status>
+</kw>
+<tag>happy</tag>
+<status status="FAIL" starttime="20211207 20:20:22.439" endtime="20211207 20:20:33.236">Setup failed:
+TimeoutError: page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================
+
+Also teardown failed:
+Error: Tried to take screenshot, but no page was open.</status>
+</test>
+<test id="s1-s1-t2" name="Email incorreto">
+<kw name="Start Session" library="base" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<arg>slowMo=00:00:00</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20211207 20:20:33.274" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\GravidadeZERO\\yodapp\\logs\\browser\\traces\\a697f110-6950-4c1d-8d42-058280d8028f"}</msg>
+<msg timestamp="20211207 20:20:33.791" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\GravidadeZERO\\yodapp\\logs\\browser\\traces\\a697f110-6950-4c1d-8d42-058280d8028f"}</msg>
+<status status="PASS" starttime="20211207 20:20:33.274" endtime="20211207 20:20:33.791"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>https://yodapp-testing.vercel.app</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<msg timestamp="20211207 20:20:45.261" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: page.screenshot: Target closed</msg>
+<msg timestamp="20211207 20:20:45.262" level="FAIL">TimeoutError: page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================</msg>
+<status status="FAIL" starttime="20211207 20:20:33.791" endtime="20211207 20:20:45.262"/>
+</kw>
+<status status="FAIL" starttime="20211207 20:20:33.274" endtime="20211207 20:20:45.262"/>
+</kw>
+<kw name="End Session" library="base" type="TEARDOWN">
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20211207 20:20:45.266" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: page.screenshot: Target page, context or browser has been closed</msg>
+<msg timestamp="20211207 20:20:45.267" level="FAIL">Error: page.screenshot: Target page, context or browser has been closed</msg>
+<status status="FAIL" starttime="20211207 20:20:45.263" endtime="20211207 20:20:45.267"/>
+</kw>
+<status status="FAIL" starttime="20211207 20:20:45.263" endtime="20211207 20:20:45.268">Error: page.screenshot: Target page, context or browser has been closed</status>
+</kw>
+<tag>inv_email</tag>
+<status status="FAIL" starttime="20211207 20:20:33.272" endtime="20211207 20:20:45.268">Setup failed:
+TimeoutError: page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================
+
+Also teardown failed:
+Error: page.screenshot: Target page, context or browser has been closed</status>
+</test>
+<doc>Suite de testes do cadastro de personagens</doc>
+<status status="FAIL" starttime="20211207 20:20:21.682" endtime="20211207 20:20:45.273"/>
+</suite>
+<suite id="s1-s2" name="Online" source="C:\GravidadeZERO\yodapp\tests\online.robot">
+<test id="s1-s2-t1" name="Yodapp deve estar online">
+<kw name="Start Session" library="base" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<arg>slowMo=00:00:00</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20211207 20:20:45.284" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\GravidadeZERO\\yodapp\\logs\\browser\\traces\\f17c2591-a43e-4d81-bb20-41574fb8f64d"}</msg>
+<msg timestamp="20211207 20:20:45.797" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\GravidadeZERO\\yodapp\\logs\\browser\\traces\\f17c2591-a43e-4d81-bb20-41574fb8f64d"}</msg>
+<status status="PASS" starttime="20211207 20:20:45.283" endtime="20211207 20:20:45.798"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>https://yodapp-testing.vercel.app</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<msg timestamp="20211207 20:20:55.931" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:20:55.932" level="FAIL">TimeoutError: page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================</msg>
+<status status="FAIL" starttime="20211207 20:20:45.798" endtime="20211207 20:20:55.932"/>
+</kw>
+<status status="FAIL" starttime="20211207 20:20:45.283" endtime="20211207 20:20:55.933"/>
+</kw>
+<kw name="End Session" library="base" type="TEARDOWN">
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20211207 20:20:55.936" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:20:55.937" level="FAIL">Error: Tried to take screenshot, but no page was open.</msg>
+<status status="FAIL" starttime="20211207 20:20:55.933" endtime="20211207 20:20:55.937"/>
+</kw>
+<status status="FAIL" starttime="20211207 20:20:55.933" endtime="20211207 20:20:55.937">Error: Tried to take screenshot, but no page was open.</status>
+</kw>
+<status status="FAIL" starttime="20211207 20:20:45.282" endtime="20211207 20:20:55.937">Setup failed:
+TimeoutError: page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================
+
+Also teardown failed:
+Error: Tried to take screenshot, but no page was open.</status>
+</test>
+<test id="s1-s2-t2" name="Deve exibir mensagem de boas vindas">
+<kw name="Start Session" library="base" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<arg>slowMo=00:00:00</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20211207 20:20:55.969" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\GravidadeZERO\\yodapp\\logs\\browser\\traces\\a3a14dde-7bc0-4089-886f-03b5420f85c3"}</msg>
+<msg timestamp="20211207 20:20:56.546" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\GravidadeZERO\\yodapp\\logs\\browser\\traces\\a3a14dde-7bc0-4089-886f-03b5420f85c3"}</msg>
+<status status="PASS" starttime="20211207 20:20:55.969" endtime="20211207 20:20:56.546"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>https://yodapp-testing.vercel.app</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<msg timestamp="20211207 20:21:04.066" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:21:04.067" level="FAIL">Error: page.goto: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================</msg>
+<status status="FAIL" starttime="20211207 20:20:56.547" endtime="20211207 20:21:04.067"/>
+</kw>
+<status status="FAIL" starttime="20211207 20:20:55.969" endtime="20211207 20:21:04.067"/>
+</kw>
+<kw name="End Session" library="base" type="TEARDOWN">
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20211207 20:21:04.072" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:21:04.073" level="FAIL">Error: Tried to take screenshot, but no page was open.</msg>
+<status status="FAIL" starttime="20211207 20:21:04.068" endtime="20211207 20:21:04.073"/>
+</kw>
+<status status="FAIL" starttime="20211207 20:21:04.068" endtime="20211207 20:21:04.073">Error: Tried to take screenshot, but no page was open.</status>
+</kw>
+<status status="FAIL" starttime="20211207 20:20:55.966" endtime="20211207 20:21:04.074">Setup failed:
+Error: page.goto: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
+============================================================
+
+Also teardown failed:
+Error: Tried to take screenshot, but no page was open.</status>
+</test>
+<doc>Suite de testes para verificar se o app está online</doc>
+<status status="FAIL" starttime="20211207 20:20:45.277" endtime="20211207 20:21:04.085"/>
+</suite>
+<status status="FAIL" starttime="20211207 20:20:21.669" endtime="20211207 20:21:04.088"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">happy</stat>
+<stat pass="0" fail="1" skip="0">inv_email</stat>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="Cadastro">Tests.Cadastro</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s2" name="Online">Tests.Online</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211207 20:20:33.229" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:20:33.235" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:20:45.261" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: page.screenshot: Target closed</msg>
+<msg timestamp="20211207 20:20:45.266" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: page.screenshot: Target page, context or browser has been closed</msg>
+<msg timestamp="20211207 20:20:55.931" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:20:55.936" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:21:04.066" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20211207 20:21:04.072" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+</errors>
+</robot>
