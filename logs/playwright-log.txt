@@ -1,353 +1,105 @@
-{"level":30,"time":"2021-12-08T00:41:28.503Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Listening on 55108"}
-{"level":30,"time":"2021-12-08T00:41:28.699Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method health"}
-{"level":30,"time":"2021-12-08T00:41:28.701Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method health"}
-{"level":30,"time":"2021-12-08T00:41:28.704Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:28.705Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:28.706Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:28.706Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:28.709Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2021-12-08T00:41:29.355Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newBrowser"}
-{"level":30,"time":"2021-12-08T00:41:29.358Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newPage"}
-{"level":30,"time":"2021-12-08T00:41:29.358Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-12-08T00:41:29.365Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:41:29.486Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Video path: undefined"}
-{"level":30,"time":"2021-12-08T00:41:29.486Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
-{"level":30,"time":"2021-12-08T00:41:39.490Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  newPage"}
-================= Original suppressed error =================
-page.goto: Timeout 10000ms exceeded.
-=========================== logs ===========================
-navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
-============================================================
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26654:49
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
-    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-12-08T00:41:39.494Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:41:39.495Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:41:39.499Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:41:39.499Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:41:39.509Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:41:39.509Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:41:39.511Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:39.512Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:39.513Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:39.513Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:41:39.514Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:39.514Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:39.514Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:39.515Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:41:39.515Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:41:39.516Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:41:39.516Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:41:39.517Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:39.517Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:39.518Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:39.518Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:41:39.518Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:39.519Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeContext"}
-{"level":30,"time":"2021-12-08T00:41:39.537Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeContext"}
-{"level":30,"time":"2021-12-08T00:41:39.541Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:39.541Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:39.543Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2021-12-08T00:41:40.078Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newBrowser"}
-{"level":30,"time":"2021-12-08T00:41:40.080Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newPage"}
-{"level":30,"time":"2021-12-08T00:41:40.081Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-12-08T00:41:40.086Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:41:40.203Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Video path: undefined"}
-{"level":30,"time":"2021-12-08T00:41:40.203Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
-{"level":30,"time":"2021-12-08T00:41:50.206Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  newPage"}
-================= Original suppressed error =================
-page.goto: Timeout 10000ms exceeded.
-=========================== logs ===========================
-navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
-============================================================
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26654:49
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
-    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-12-08T00:41:50.208Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:41:50.208Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:41:50.211Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:41:50.211Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:41:50.212Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:41:50.212Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:41:50.214Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.214Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.215Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:50.215Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:41:50.215Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:50.216Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.216Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.216Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:41:50.217Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:41:50.217Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:41:50.217Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:41:50.218Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:50.218Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:50.219Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:50.219Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:41:50.219Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:41:50.220Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeContext"}
-{"level":30,"time":"2021-12-08T00:41:50.238Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeContext"}
-{"level":30,"time":"2021-12-08T00:41:50.242Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.242Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.248Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.248Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.249Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.249Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:41:50.250Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2021-12-08T00:41:50.789Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newBrowser"}
-{"level":30,"time":"2021-12-08T00:41:50.791Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newPage"}
-{"level":30,"time":"2021-12-08T00:41:50.791Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-12-08T00:41:50.796Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:41:50.922Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Video path: undefined"}
-{"level":30,"time":"2021-12-08T00:41:50.922Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
-{"level":30,"time":"2021-12-08T00:42:00.935Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  newPage"}
-================= Original suppressed error =================
-page.goto: Timeout 10000ms exceeded.
-=========================== logs ===========================
-navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
-============================================================
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26654:49
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
-    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-12-08T00:42:00.937Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:42:00.937Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:42:00.940Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:42:00.940Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:42:00.942Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:42:00.942Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:42:00.944Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:00.944Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:00.945Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:00.945Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:42:00.945Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:00.945Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:00.945Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:00.946Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:42:00.946Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:42:00.946Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:42:00.946Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:42:00.947Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:00.947Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:00.948Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:00.948Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:42:00.948Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:00.948Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeContext"}
-{"level":30,"time":"2021-12-08T00:42:00.967Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeContext"}
-{"level":30,"time":"2021-12-08T00:42:00.970Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:00.970Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:00.973Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2021-12-08T00:42:01.618Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newBrowser"}
-{"level":30,"time":"2021-12-08T00:42:01.620Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newPage"}
-{"level":30,"time":"2021-12-08T00:42:01.620Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-12-08T00:42:01.625Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:42:01.742Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Video path: undefined"}
-{"level":30,"time":"2021-12-08T00:42:01.742Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
-{"level":30,"time":"2021-12-08T00:42:11.745Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  newPage"}
-================= Original suppressed error =================
-page.goto: Timeout 10000ms exceeded.
-=========================== logs ===========================
-navigating to "https://yodapp-testing.vercel.app/", waiting until "load"
-============================================================
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:26654:49
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26060:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26041:53)
-    at fulfilled (C:\Python310\lib\site-packages\Browser\wrapper\index.js:26032:58) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2021-12-08T00:42:11.747Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:42:11.747Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:42:11.750Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:42:11.750Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:42:11.752Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-08T00:42:11.752Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Error of node method  takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Python310\lib\site-packages\Browser\wrapper\index.js:25970:15)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22856:52
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22803:23)
-    at Object.next (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22784:53)
-    at C:\Python310\lib\site-packages\Browser\wrapper\index.js:22778:71
-    at new Promise (<anonymous>)
-    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22774:12)
-    at takeScreenshot (C:\Python310\lib\site-packages\Browser\wrapper\index.js:22830:12)
-    at PlaywrightServer.<anonymous> (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24171:50)
-    at step (C:\Python310\lib\site-packages\Browser\wrapper\index.js:24109:23)
-=============================================================
-{"level":30,"time":"2021-12-08T00:42:11.754Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:11.754Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:11.754Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:11.755Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:42:11.755Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:11.756Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:11.756Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:11.756Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:42:11.756Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:42:11.757Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:42:11.757Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-08T00:42:11.758Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:11.758Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:11.758Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:11.758Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
-{"level":30,"time":"2021-12-08T00:42:11.758Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
-{"level":30,"time":"2021-12-08T00:42:11.759Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeContext"}
-{"level":30,"time":"2021-12-08T00:42:11.778Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeContext"}
-{"level":30,"time":"2021-12-08T00:42:11.781Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:11.781Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-08T00:42:11.811Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2021-12-08T00:42:12.061Z","pid":7904,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2021-12-08T03:54:58.784Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Listening on 59383"}
+{"level":30,"time":"2021-12-08T03:54:58.976Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method health"}
+{"level":30,"time":"2021-12-08T03:54:58.979Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method health"}
+{"level":30,"time":"2021-12-08T03:54:58.982Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:54:58.983Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:54:58.984Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:54:58.984Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:54:58.986Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2021-12-08T03:54:59.623Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newBrowser"}
+{"level":30,"time":"2021-12-08T03:54:59.626Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method newPage"}
+{"level":30,"time":"2021-12-08T03:54:59.626Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-12-08T03:54:59.634Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T03:54:59.766Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Video path: undefined"}
+{"level":30,"time":"2021-12-08T03:54:59.766Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
+{"level":30,"time":"2021-12-08T03:55:00.772Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method newPage"}
+{"level":30,"time":"2021-12-08T03:55:00.775Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method click"}
+{"level":30,"time":"2021-12-08T03:55:00.776Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with text=Novo in page."}
+{"level":30,"time":"2021-12-08T03:55:00.898Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method click"}
+{"level":30,"time":"2021-12-08T03:55:00.900Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2021-12-08T03:55:00.900Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with css=.card-header-title >> text=Cadastrar novo usuário in page."}
+{"level":30,"time":"2021-12-08T03:55:01.061Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2021-12-08T03:55:01.064Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method fillText"}
+{"level":30,"time":"2021-12-08T03:55:01.064Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with css=.input[name=\"nome\"] in page."}
+{"level":30,"time":"2021-12-08T03:55:01.078Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method fillText"}
+{"level":30,"time":"2021-12-08T03:55:01.080Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method fillText"}
+{"level":30,"time":"2021-12-08T03:55:01.080Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with css=.input[name=\"email\"] in page."}
+{"level":30,"time":"2021-12-08T03:55:01.094Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method fillText"}
+{"level":30,"time":"2021-12-08T03:55:01.097Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method selectOption"}
+{"level":30,"time":"2021-12-08T03:55:01.097Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with css=.ordem select in page."}
+{"level":30,"time":"2021-12-08T03:55:01.109Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method selectOption"}
+{"level":30,"time":"2021-12-08T03:55:01.112Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.112Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with css=.input[name=\"Data de nascimento\"] in page."}
+{"level":30,"time":"2021-12-08T03:55:01.218Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.219Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method selectOption"}
+{"level":30,"time":"2021-12-08T03:55:01.219Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with xpath=(//header[@class=\"datepicker-header\"]//select)[1] in page."}
+{"level":30,"time":"2021-12-08T03:55:01.232Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method selectOption"}
+{"level":30,"time":"2021-12-08T03:55:01.234Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method selectOption"}
+{"level":30,"time":"2021-12-08T03:55:01.234Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with xpath=(//header[@class=\"datepicker-header\"]//select)[2] in page."}
+{"level":30,"time":"2021-12-08T03:55:01.247Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method selectOption"}
+{"level":30,"time":"2021-12-08T03:55:01.249Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.249Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(@class, \"datepicker-cell\")]//span[text()=\"20\"] in page."}
+{"level":30,"time":"2021-12-08T03:55:01.295Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.297Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method fillText"}
+{"level":30,"time":"2021-12-08T03:55:01.297Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with id=insta in page."}
+{"level":30,"time":"2021-12-08T03:55:01.310Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method fillText"}
+{"level":30,"time":"2021-12-08T03:55:01.313Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.313Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with //input[@value=\"Cavaleiro Jedi\"]/..//span[@class=\"check\"] in page."}
+{"level":30,"time":"2021-12-08T03:55:01.347Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.349Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.349Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with xpath=//input[@name=\"comunications\"]/../span[@class=\"check\"] in page."}
+{"level":30,"time":"2021-12-08T03:55:01.417Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.419Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.419Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2021-12-08T03:55:01.470Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method click"}
+{"level":30,"time":"2021-12-08T03:55:01.473Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2021-12-08T03:55:01.473Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with css=.toast div in page."}
+{"level":30,"time":"2021-12-08T03:55:01.477Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2021-12-08T03:55:01.479Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getText"}
+{"level":30,"time":"2021-12-08T03:55:01.479Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with css=.toast div in page."}
+{"level":30,"time":"2021-12-08T03:55:01.490Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Retrieved text for element css=.toast div containing Usuário cadastrado com sucesso!"}
+{"level":30,"time":"2021-12-08T03:55:01.490Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getText"}
+{"level":30,"time":"2021-12-08T03:55:01.492Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method goTo"}
+{"level":30,"time":"2021-12-08T03:55:01.719Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method goTo"}
+{"level":30,"time":"2021-12-08T03:55:01.728Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2021-12-08T03:55:01.728Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with css=.carousel in page."}
+{"level":30,"time":"2021-12-08T03:55:01.733Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2021-12-08T03:55:01.735Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2021-12-08T03:55:01.735Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with xpath=//td[contains(text(), \"yoda@jedi.com\")]/.. in page."}
+{"level":30,"time":"2021-12-08T03:55:01.738Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2021-12-08T03:55:01.739Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getText"}
+{"level":30,"time":"2021-12-08T03:55:01.740Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with xpath=//td[contains(text(), \"yoda@jedi.com\")]/.. in page."}
+{"level":30,"time":"2021-12-08T03:55:01.747Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Retrieved text for element xpath=//td[contains(text(), \"yoda@jedi.com\")]/.. containing  Mestre Yoda\tyoda@jedi.com\t20/02/1970\t@yoda\t"}
+{"level":30,"time":"2021-12-08T03:55:01.747Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getText"}
+{"level":30,"time":"2021-12-08T03:55:01.749Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getText"}
+{"level":30,"time":"2021-12-08T03:55:01.749Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Strict mode is enabled, find Locator with xpath=//td[contains(text(), \"yoda@jedi.com\")]/.. in page."}
+{"level":30,"time":"2021-12-08T03:55:01.754Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Retrieved text for element xpath=//td[contains(text(), \"yoda@jedi.com\")]/.. containing  Mestre Yoda\tyoda@jedi.com\t20/02/1970\t@yoda\t"}
+{"level":30,"time":"2021-12-08T03:55:01.754Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getText"}
+{"level":30,"time":"2021-12-08T03:55:01.756Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T03:55:01.963Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2021-12-08T03:55:01.965Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:55:01.966Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:55:01.967Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T03:55:01.967Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T03:55:01.967Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Changing current active page"}
+{"level":30,"time":"2021-12-08T03:55:01.967Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
+{"level":30,"time":"2021-12-08T03:55:01.969Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T03:55:01.970Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:55:01.970Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:55:01.971Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T03:55:01.971Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T03:55:01.972Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T03:55:01.972Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-08T03:55:01.973Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T03:55:01.973Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T03:55:01.974Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method switchContext"}
+{"level":30,"time":"2021-12-08T03:55:01.974Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active context"}
+{"level":30,"time":"2021-12-08T03:55:01.974Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Changing current active page"}
+{"level":30,"time":"2021-12-08T03:55:01.974Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Changed active page"}
+{"level":30,"time":"2021-12-08T03:55:01.974Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method switchContext"}
+{"level":30,"time":"2021-12-08T03:55:01.975Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeContext"}
+{"level":30,"time":"2021-12-08T03:55:01.994Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeContext"}
+{"level":30,"time":"2021-12-08T03:55:01.996Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:55:01.997Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-08T03:55:02.024Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2021-12-08T03:55:02.103Z","pid":5032,"hostname":"DESKTOP-6IUKIIE","msg":"End of node method closeAllBrowsers"}

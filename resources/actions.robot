@@ -3,6 +3,12 @@
 Documentation           Ações customizadas do Yodapp
 
 *Keywords*
+Go To Home Page
+
+    Go To                           ${BASE_URL}
+
+    Wait For Elements State         css=.carousel       visible         5
+
 Go To User Form
 
     Click                           text=Novo
@@ -12,18 +18,17 @@ Go To User Form
     ...                             visible     5
 
 Fill User Form
-    [Arguments]                     ${name}     ${email}    ${ordem}    ${bdate}    ${instagram}
+    [Arguments]                     ${user}
 
-     # Quando eu preencho esse formulário com os dados do Mestre Yoda
-    Fill Text                       css=.input[name="nome"]     ${name}
-    Fill Text                       css=.input[name="email"]     ${email}
+    Fill Text                       css=.input[name="nome"]     ${user}[name]
+    Fill Text                       css=.input[name="email"]     ${user}[email]
     
-    Select Options By               css=.ordem select                   text           ${ordem}
+    Select Options By               css=.ordem select                   text           ${user}[ordem]
     
 
-    Select Birth Date               ${bdate}
+    Select Birth Date               ${user}[bdate]
 
-    Fill Text                       id=insta                            ${instagram}
+    Fill Text                       id=insta                            ${user}[instagram]
 
 Select Jedi
     [Arguments]                     ${tpjedi}
@@ -56,5 +61,16 @@ Submit User Form
 Toaster Message Should Be
     [Arguments]                     ${expected_message}
 
-    Wait For Elements State          css=.toast div >> text=${expected_message}
-    ...                              visible    5
+    ${element}                      Set Variable        css=.toast div
+
+    Wait For Elements State          ${element}     visible     5
+    Get Text                         ${element}     equal       ${expected_message}
+
+User Should Be Visible
+    [Arguments]                     ${user}
+
+    ${element}                      Set Variable            xpath=//td[contains(text(), "${user}[email]")]/..
+
+    Wait For Elements State         ${element}              visible     5
+    Get Text                        ${element}              contains    ${user}[name]
+    Get Text                        ${element}              contains    ${user}[instagram]
