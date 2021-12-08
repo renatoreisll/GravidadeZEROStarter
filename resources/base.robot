@@ -6,6 +6,9 @@ Documentation           Aqui não é suíte, mas o arquivo principal do projeto
 Library                 Browser
 Library                 String
 
+
+Resource                actions.robot
+
 *Keywords*
 Start Session
 
